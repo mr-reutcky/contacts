@@ -116,21 +116,18 @@ function validateInput() {
       cityInput.style.borderColor = '';
       emailInput.style.borderColor = '';
       nameInput.style.borderColor = '#ed4b3d';
-      nameInput.value = '';
       errorDisplay.innerText = error.message;
       nameInput.focus();
     } else if (error.message.includes('City')) {
       nameInput.style.borderColor = '';
       emailInput.style.borderColor = '';
       cityInput.style.borderColor = '#ed4b3d';
-      cityInput.value = '';
       errorDisplay.innerText = error.message;
       cityInput.focus();
     } else if (error.message.includes('Email')) {
       nameInput.style.borderColor = '';
       cityInput.style.borderColor = '';
       emailInput.style.borderColor = '#ed4b3d';
-      emailInput.value = '';
       errorDisplay.innerText = error.message;
       emailInput.focus();
     }
