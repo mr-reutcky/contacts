@@ -45,7 +45,7 @@ input {
   background-color:#393e46; 
   height: 40px;
   border-radius: 5px;
-  border: 2px solid transparent;
+  border: 1.5px solid transparent;
   transition: all 0.25s ease-in-out;
 }
 
@@ -66,19 +66,19 @@ input[type=button] {
   width: 140px;
   height: 40px;
   color: #f2f2f2;;
-  background-color: #f96d00; 
+  background-color: #ff8d35; 
   padding-bottom: 2px;
 }
 
 input[type=button]:hover {
-  background-color: #ff7b14; 
+  background-color: #ff9848; 
   scale: 1.01;
 }
 
 .error-message {
   height: 30px;
   color: #ed4b3d;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 300;
   margin-bottom: 20px;
   text-align: center;
@@ -86,7 +86,7 @@ input[type=button]:hover {
 
 .contact-list {
   margin-bottom: 60px;
-  width: 771px;
+  width: 785px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-auto-rows: 100px; 
@@ -104,8 +104,9 @@ input[type=button]:hover {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: all 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .contact:hover {
@@ -116,7 +117,7 @@ input[type=button]:hover {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: linear-gradient(107deg, #ff4305 11.1%, #f58700 95.3%);
+  background-color: #ff8d35;
   padding: 8px 16px;
   border-radius: 50px;
   font-weight: 400;
