@@ -85,9 +85,9 @@ function listContacts() {
     const contactDiv = document.createElement('div');
     contactDiv.classList.add('contact');
     contactDiv.innerHTML = `
-      <p>Name: ${contact.name}</p>
-      <p>City: ${contact.city}</p>
-      <p>Email: ${contact.email}</p>
+      <p><span class="bold">Name:</span> ${contact.name}</p>
+      <p><span class="bold">City</span>: ${contact.city}</p>
+      <p><span class="bold">Email:</span> ${contact.email}</p>
     `;
 
     contactDiv.onclick = () => {
